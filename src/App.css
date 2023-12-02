@@ -1,38 +1,353 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+*{
+    /* font-family: 'Roboto', sans-serif; */
+    margin: 0;
+    padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header,body{
+    /* font-family: 'Roboto', sans-serif; */
+    background-color: #27153d;
+    /* background-image: url('../src/assets/images/abstract-low-poly-futuristic-background.jpg'); */
 }
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background-color:#8121D0;
+}
+.brand{
+    
+    color: white;
+    font-weight: 700;
+    font-size: 2.6rem;
+}
+.image{
+    /* height: 500px;
+    width: 400px; */
+    margin-left:20px;
+    border-radius: 20px;
+    color: transparent;
+    background-color:transparent;
+    /* fill: #059355; */
+}
+.Navbar-link{
+    margin-left: 10px;
+    margin-right:10px; 
+    font-size: large;
+    font-weight: 600;
+    color: #dccfed;
+    text-decoration: none;
+}
+.Navbar-link:hover{
+    color:#110225;
+    font-size: 1.2rem;
+}
+.Navbar-link:focus{
+    border-top: 0.1875rem solid black ; 
+}
+/* .Navbar-link:focus ::after{
+    color: white; 
+} */
+.navbar{
+    background-image:linear-gradient(to right, #8121D0,#291c3a ) ;
+    color: white;
+}
+.hire-me{
+    width: 80px;
+    height: 42px;
+    border-radius: 10px;
+    padding: 1px;
+    color:#331352;
+    border-color: #E1EBED;
+    font-weight: 600;
+    justify-content: end;
+    background-color: #FFFFFF;
+}
+.hire-me:hover{
+   border: 1px solid #FFFFFF;
+   outline: #291C3A;
+   color: #FFFFFF;
+   background-color: #291C3A;
+}
+.resume{
+    width: 200px;
+    height: 52px;
+    border-radius: 10px;
+    padding: 4px;
+    color:#FFFFFF;
+    border-color: #8121D0;
+    font-weight: 600;
+    font-size: x-large;
+    background-color: #331352;
+    /* filter: drop-shadow(5px 5px 5px,#331352); */
+}
+.contact-me{
+    margin-left: 30px;
+    width: 200px;
+    height: 52px;
+    border-radius: 10px;
+    padding: 4px;
+    color:#FFFFFF;
+    border-color: #8121D0;
+    font-weight: 600;
+    font-size: x-large;
+    background-color: #331352;
+    text-decoration: none;
+    text-align: center;
+}
+@keyframes glow {
+    0% {
+      box-shadow: 0 0 5px #8121D0;
+    }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    50% {
+      box-shadow: 0 0 20px #8121D0;
+    }
+
+    100% {
+      box-shadow: 0 0 5px #8121D0;
+    }
   }
+.contact-me:hover{
+    color: #291c3a;
+    border: 3px solid #8121D0;
+    filter: drop-shadow(5px 5px 5px #291c3a);
+    animation: glow 1s ease-in-out infinite;
+    background-color: #8121D0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.resume:hover{
+    color: #291c3a;
+    border: 3px solid #8121D0;
+    filter: drop-shadow(5px 5px 5px #291c3a);
+    animation: glow 1s ease-in-out infinite;
+    background-color: #8121D0;
+    
 }
-
-.App-link {
-  color: #61dafb;
+/* about style started */
+.c-me {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #291C3A;
+    font-size: 50px;
+    font-weight: 700;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.socail{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+   
+}
+.top-heading {
+    margin-top: 25px;
+    padding: 25px;
   }
-  to {
-    transform: rotate(360deg);
+
+  #aboutme {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2;
+    color: #8e2edc;
   }
+
+  .personal {
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 25px;
+    color: #291C3A;
+  }
+  .personal-key {
+    color: #291C3A;
+  }
+
+  #cv-download-btn {
+    background-color: #110225;
+    float: left;
+    margin-left: 25px;
+    color: #291c3a;
+    border: 3px solid #291c3a;
+    border-radius: 7px;
+    padding: 0.50rem;
+    font-size: 1.2rem;
+
+    /* transition */
+    background: linear-gradient(270deg, transparent 0, transparent 50%,#8121D0 0);
+    background-position: 100%;
+    transition: background-position 0.3s ease-in-out;
+    background-size: 200% 100%;
+    margin-bottom: 20px;
+  }
+  
+  #cv-download-btn:hover {
+    color: white;
+    border: none;
+    background-position: 0;
+  }
+  .topic{
+    color: #170332;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .mirae-key{
+    color: #a572e8;
+  }
+
+   .skill{
+    width: 40px;
+    height:40px;
+   }
+   .text-red{
+    color: aliceblue;
+    margin-bottom : 20px;
+    margin-top : 20px;
+   }
+  .form-input,
+  textarea {
+    background-color: #111319;
+    border: none;
+    border-bottom: 1px solid #a9afc3;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    padding: 5px;
+    margin-top: 2px;
+  }
+
+  textarea {
+    font-family: "poppins", "sans-serif";
+    height: 100px;
+    resize: none;
+  }
+  .form{
+    height:400px;
+  }
+  .form>form {
+    width: 80%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #111319;
+    box-shadow: 0 0 5px 4px #291C3A;
+  }
+
+
+  .form>form input[type="submit"] {
+    background: linear-gradient(270deg,
+        transparent 0,
+        transparent 50%,
+        #8121D0 0,
+        #1d1f24);
+    background-position: 100%;
+    transition: background-position 0.3s ease-in-out;
+    background-size: 200% 100%;
+  }
+
+  .form>form input[type="submit"]:hover {
+    background-position: 0;
+  }
+
+  .contact-links a {
+    color: rgb(207, 207, 207);
+    text-decoration: none;
+  }
+
+  .contact-links a:hover {
+    color: #d6002f;
+    text-decoration: underline;
+  }
+
+  .contact-logo {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+  }
+  #About{
+    background-color: #E1EBED;
+    margin-top: 150px;
+    border-radius: 12px;
+    padding-bottom: 50px;
+    padding-left:30px ;
+  }
+  #Contact{
+    background-color: #DCCFED;
+  }
+  #contactID{
+    margin-top: 70px;
+  }
+  .tools{
+    /* background-color: #170332; */
+    border-radius: 6px;
+    
+  }
+  /* priojects */
+
+  .projecs{
+    background-color: #331C52;
+    width: 300px;
+    height: 360px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+  }
+  .card-title{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+  }
+  .card-description{
+    text-align: center;
+    padding: 5px;
+    color:#9761c1;
+  }
+  .code-link{
+    padding: 5px;
+    background-color: #110225;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top:15px;
+    cursor: pointer;
+  }
+  .code-link:hover{
+    text-decoration: underline;
+  }
+  /* image style in button */
+  .button{
+    width: 30px;
+    height: 30px;
+    background-color:#DCCFED;
+    background-position-x: center;
+    margin-right: 15px;
+    border-radius: 30px;
+    outline:#110225;
+    border: none;
+    /* border: 1px solid #110225; */
+  }
+  .footer{
+    background-color: #331C52;
+    padding-bottom: 10px;
+  }
+
+.linear{
+    background-image: linear-gradient(to right, purple,rgb(234, 37, 70));
+    -webkit-background-clip: text;
+    color:transparent;
+    font-size: large;
+}
+.footer-logo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color:white;
+}
+.links{
+    margin:10px; 
 }
