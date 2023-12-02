@@ -35,7 +35,7 @@ export const Contact = ()=>{
                 <h5 style={{backgroundColor:"#291C3A",borderRadius:"5px",color:"white",padding:"5px "}}>
                     Ecommerce Website
                 </h5>
-                <h5 style={{border:"1px solid #291C3A",borderRadius:"5px",padding:"5px"}}>Potfolio</h5>
+                <h5 style={{border:"1px solid #291C3A",borderRadius:"5px",padding:"5px"}}>Portfolio</h5>
                 <h5 style={{border:"1px solid #291C3A",borderRadius:"5px",padding:"5px"}}>Saas Websites</h5>
                 <h5 style={{border:"1px solid #291C3A",borderRadius:"5px",padding:"5px"}}>Landing pages</h5>
                 <h5 style={{border:"1px solid #291C3A",borderRadius:"5px",padding:"5px"}}>Blog Website</h5>

@@ -2,9 +2,9 @@ import React from "react";
 // import { Typewriter } from "./Typewriter";
 // import ReactTyped from "react-typed";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { TypeAnimation } from 'react-type-animation'
+import { TypeAnimation } from 'react-type-animation';
 import profile from '../assets/images/brand.png';
-// import { Link } from "react-bootstrap/lib/navbar";
+
 import hand from '../assets/images/hi.png';
 import linkedIn from '../assets/images/linkedIn.712c4ce3d6be06644d11.png';
 import github from '../assets/images/github2.0144fe56718f3af01a9f.png';
