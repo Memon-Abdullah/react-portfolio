@@ -18,7 +18,7 @@
     
     color: white;
     font-weight: 700;
-    font-size: 2.6rem;
+    font-size: 4ex;
 }
 .image{
     margin-left:20px;
@@ -343,5 +343,17 @@
     color:white;
 }
 .links{
-    margin:10px; 
+    margin: 2px; 
+    width: 30px;
+    height: 30px;
+}
+.link__footer{
+  text-decoration: none;
+  color: #219ed0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.01rem;
+  font-weight: bolder;
+}
+.link__footer:hover{
+  color: red;
 }

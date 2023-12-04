@@ -16,10 +16,10 @@ export const Landing = () => {
     <div className="container-fluid mt-5">
       <div className="container pt-5">
         <div className="row pt-5">
-          <div className="col-md-6">
+          <div className="col-md-6 col-sm-12 col-lg-6">
             <div>
               <h3 style={{color:"#FFFFFF"}}>Hello <img src={hand} alt="hi" style={{width:"30px"}}/>,</h3>
-              <h1 style={{color:"#DCCFED",fontSize:"5rem"}}>{"I'm Abdullah"}</h1>
+              <h1 style={{color:"#DCCFED",fontSize:"4rem"}}>{"I'm Abdullah"}</h1>
               <h1 style={{color:"#DCCFED"}}>
                 <TypeAnimation sequence={['A frontend Developer ',1000, 'ML Enthusiastic',1000]} wrapper="span" speed={50}
                 style={{fontSize:"1em", display:"inline-block"}} repeat={Infinity}/>
@@ -27,18 +27,18 @@ export const Landing = () => {
               </h1>
               <h3 className="text-white mt-3"> I build things for Web</h3>
             </div>
-            <div className="mt-5 d-flex mb-5">
-              <a href={cv} download='' >
+            <div className=" mt-5 d-flex flex-wrap mb-5">
+              <a href={cv} download='' className="ms-5">
                 <button className="resume" >Resume</button>
               </a>
-              <Link to={'contact'}>
-                <button className="contact-me">Contact me</button>
+              <Link to={'contact'} className="ms-3 my-5 my-lg-0">
+                <button className="contact-me ">Contact me</button>
               </Link>
               
             </div>
-             <div className="mt-5 d-flex justify-content-center mb-5">
-              <a  href="https://www.linkedin.com/in/abdullah-memon-7a7877256/"><img className="socail ms-5" src={linkedIn} alt="..."/> </a>
-              <a  href="https://github.com/Memon-Abdullah"><img className="socail ms-2" src={github} alt="..."/> </a>
+             <div className="mt-5 d-flex justify-content-center  mb-5">
+              <a  href="https://www.linkedin.com/in/abdullah-memon-7a7877256/"><img className="img-fluid socail ms-5" src={linkedIn} alt="..."/></a>
+              <a  href="https://github.com/Memon-Abdullah"><img className="img-fluid socail ms-2" src={github} alt="..."/> </a>
               </div>       
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">
